@@ -1,7 +1,7 @@
 import React, { useCallback, useContext, useRef, useState } from 'react';
 import {BrowserRouter, Link, Navigate, Route, Router, Routes} from 'react-router-dom';
 import axios from 'axios';
-import AuthContext from 'auth/auth-context';
+import AuthContext from 'store/auth-context';
 import Layout from 'components/layout/Layout';
 import HomePage from 'pages/HomePage';
 import CreateAccountPage from 'pages/CreateAccountPage';

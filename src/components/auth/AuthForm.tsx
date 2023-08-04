@@ -1,6 +1,6 @@
 import React, { useState, useRef, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import AuthContext from '../../auth/auth-context';
+import AuthContext from '../../store/auth-context';
 
 const AuthForm = () => {
 
